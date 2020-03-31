@@ -9,11 +9,6 @@
   医生端App4.0 负责人（郭威龙）
   医生端后端 负责人（刘斌华）
 
-## 仓库地址
-
-```
-https://git.dev.wenwo.com/muxinxian/aiwen_doctor_app_h5.git
-```
 
 ## app传递的参数
 

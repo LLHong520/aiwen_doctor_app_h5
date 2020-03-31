@@ -2,7 +2,6 @@
   "name": "doctor-special-topic",
   "version": "1.0.0",
   "description": "doctor-special-topic",
-  "author": "muxinxian <xinxian.mu@pingcl.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
