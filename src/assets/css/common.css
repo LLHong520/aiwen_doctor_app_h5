@@ -1,0 +1,242 @@
+@charset "utf-8";
+
+/* CSS Document */
+html {
+  color: #333;
+}
+html {
+  background: #fff;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+html * {
+  outline: 0;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html,
+body {
+  font: normal normal 12px/1.5em "微软雅黑", "Helvetica Neue", "Helvetica", "Tahoma", "Arial";
+  -webkit-text-size-adjust: none;
+  background: #fff;
+}
+
+input,
+textarea {
+  font-family:"微软雅黑", "Helvetica Neue", "Helvetica";
+  outline: 0;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  user-select: text;
+  -webkit-appearance: none;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  outline: 0;
+}
+
+html,
+body,
+form,
+fieldset,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  -webkit-text-size-adjust: none;
+}
+
+html,
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+button,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+header,
+nav,
+aside,
+menu,
+figure,
+article,
+footer,
+section {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header,
+fieldset,
+img {
+  border: 0;
+}
+
+input,
+textarea,
+button,
+select {
+  outline: 0;
+  font-family:"微软雅黑", "Helvetica Neue", "Helvetica";
+  border: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+textarea {
+  resize: none;
+}
+
+li {
+  list-style: none;
+}
+
+:focus {
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+img {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  display: block;
+}
+
+p {
+  word-break: break-all;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #999999;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #999999;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #999999;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #999999;
+}
+
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.tips_mod {
+  color: #fff;
+  line-height: 18px;
+  font-size: 13px;
+  position: fixed;
+  top: 45%;
+  left: 0;
+  text-align: center;
+  z-index: 999;
+  right: 0;
+}
+
+.tips_mod .tips_txt {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #000;
+  background: rgba(0, 0, 0, .7);
+  border-radius: 3px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+.red {
+  color: #d00018
+}
+
+.cover {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background: #000;
+  opacity: .6;
+  position: fixed;
+}
+
+.blank50 {
+  height: 50px;
+}
+
+/* 文字垂直居中 */
+.vMiddle {
+  display: flex;
+  align-items: center;
+}
+
+/* vant弹出框 */
+.van-dialog__message{
+  color: #2D2D2D;
+  font-size:15px;
+  line-height:22px;
+}

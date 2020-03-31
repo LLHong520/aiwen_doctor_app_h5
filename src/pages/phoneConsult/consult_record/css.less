@@ -1,0 +1,108 @@
+@r: 75rem;
+.record_wrapper {
+  width: 100%;
+  min-height: 100vh;
+}
+.top_statistics {
+  width: 100%;
+  background-color: #fff;
+}
+.top_statistics {
+  background-color: #fff;
+  padding: 30/@r;
+  box-sizing: border-box;
+  .border_l{
+    display: block;
+    border-left: 1px solid #EFEFEF;
+  }
+  li {
+    float: left;
+    width: 330/@r;
+    text-align: center;
+    padding: 38/@r 0 37/@r;
+    border-radius: 10/@r;
+    &:first-child {
+      margin-right: 30/@r;
+    }
+    p {
+      line-height: 1;
+    }
+    .num {
+      font-size: 60/@r;
+      color: #455A64;
+      font-weight:600;
+      margin-bottom: 18/@r;
+    }
+    .text {
+      font-size: 24/@r;
+      color: #999999;
+    }
+  }
+}
+.bottom_list {
+  border-top: 20/@r solid #F3F4F5;;
+  .tab_wrapper {
+    padding: 38/@r 0 37/@r;
+    border-bottom: 1/@r solid #EFEFEF;
+    background-color: #fff;
+    li {
+      float: left;
+      width: 50%;
+      text-align: center;
+      span {
+        font-size: 30/@r;
+        color: #999999;
+      }
+      &.active {
+        span {
+          color: #2D2D2D;
+          position: relative;
+          &:after {
+            content: "";
+            display: block;
+            width: 24/@r;
+            height: 4/@r;
+            background-color: #E51C23;
+            border-radius: 2/@r;
+            position: absolute;
+            top: 50/@r;
+            left: 50%;
+            margin-left: -12/@r;
+          }
+        }
+      }
+    }
+  }
+}
+
+.header_title {
+  display: flex;
+  padding-left: 136/@r;
+  line-height: 80/@r;
+}
+.header_icon_help {
+  display: inline-block;
+  width: 36/@r;
+  height: 36/@r;
+  background: url("~@/assets/images/btn_i@2x.png") no-repeat;
+  background-size: 100% 100%;
+  vertical-align: middle;
+}
+.header_icon_settines {
+  width: 48/@r;
+  height: 48/@r;
+  display: inline-block;
+  background: url("~@/assets/images/nav_setting@2x.png") no-repeat;
+  background-size: 100% auto;
+  position: relative;
+  top:-10/@r;
+}
+.header_icon_share {
+  width: 72/@r;
+  height: 72/@r;
+  display: inline-block;
+  background: url("~@/assets/images/nav_share@2x.png") no-repeat;
+  background-size: 100% auto;
+}
+
+

@@ -1,0 +1,237 @@
+@r: 75rem;
+
+.consult_settings_wrapper {
+  height: 100vh;
+  background-color: #F3F4F5;
+  .btn_cancel,
+  .btn_confirm {
+    font-size: 30/@r;
+    line-height: 80/@r;
+  }
+  .btn_cancel {
+    color: #2D2D2D;
+    margin-left: 30/@r;
+  }
+  .btn_confirm {
+    color: #607D8B;
+    margin-right: 30/@r;
+  }
+}
+
+.consult_service_wrapper {}
+
+.service_box {
+  height: 88/@r;
+  background-color: #fff;
+  margin-top: 20/@r;
+  padding: 0 30/@r;
+
+  p {
+    float: left;
+    font-size: 30/@r;
+    color: #2D2D2D;
+    line-height: 88/@r;
+  }
+}
+
+.agreement_box {
+  font-size: 26/@r;
+  color: #CCCCCC;
+  line-height: 42/@r;
+  padding: 0 30/@r;
+  margin-top: 20/@r;
+
+  .text {
+    color: #4B9BC5;
+  }
+}
+
+.btn_set {
+  display: block;
+  float: right;
+  width: 72/@r;
+  height: 40/@r;
+  border-radius: 40/@r;
+  box-sizing: border-box;
+  background-color: #C6C6C6;
+  position: relative;
+  transition: all .4s;
+  top: 24/@r;
+
+  em.circle {
+    position: absolute;
+    left: 6/@r;
+    top: 6/@r;
+    display: block;
+    width: 28/@r;
+    height: 28/@r;
+    border-radius: 28/@r;
+    background-color: #fff;
+    overflow: hidden;
+  }
+
+  &.btn_on {
+    background-color: #4B9BC5;
+
+    em.circle {
+      left: auto;
+      right: 6/@r;
+    }
+  }
+}
+
+.settings_detail_box {
+  .settings_item {
+    height: 88/@r;
+    line-height: 88/@r;
+    vertical-align: middle;
+    background-color: #fff;
+    padding: 0 30/@r;
+    p {
+      line-height: 88/@r;
+      float: left;
+      font-size: 30/@r;
+      color: #2D2D2D;
+    }
+    .right_num {
+      float: right;
+      input {
+        position: relative;
+        right:-15/@r;
+        line-height: 88/@r;
+        text-align: right;
+        padding-right: 15/@r;
+        width: 240/@r;
+        z-index: 1;
+      }
+      span{
+        position: relative;
+        z-index: 2;
+      }
+      input,
+      span {
+        line-height: 88/@r;
+        font-size: 28/@r;
+        color: #999999;
+      }
+      .icon-enter{
+        display: inline-block;
+        width: 40/@r;
+        height: 40/@r;
+        background: url("~@/assets/images/btn_enter@2x.png") no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        top:10/@r;
+      }
+    }
+  }
+
+  .explain_text {
+    padding: 0 30/@r;
+    font-size: 26/@r;
+    color: #CCCCCC;
+    margin: 20/@r 0 48/@r;
+    .money{
+      color:#999999
+    }
+  }
+
+  .border_top {
+    border-top: 1/@r solid #EFEFEF;
+  }
+}
+
+.picker-wrapper /deep/ .picker-title{
+  height: 38px;
+  line-height: 38px;
+  span{
+    font-size: 26/@r!important;
+    height: 38px;
+    line-height: 38px;
+  }
+  h4{
+    font-size: 24/@r;
+    color: #AEB1B6!important;
+    height: 38px;
+    line-height: 38px;
+  }
+  .pt-cancel{
+    color: #2D2D2D!important;
+  }
+  .pt-submit{
+    color: #4B9BC5!important;
+  }
+}
+
+.picker-wrapper{
+  .custom_btn{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    color: #4B9BC5;
+    z-index: 9999999;
+  }
+}
+.picker-wrapper /deep/ .picker{
+  // height: 222px;
+  border-radius:6px 6px 0px 0px;
+}
+// .picker-wrapper /deep/ .picker-panel{
+//   padding: 0 12px;
+// }
+// .picker-wrapper /deep/ .picker-panel .picker-mask-top {
+//   top: 0px;
+// }
+.picker-wrapper /deep/ .picker-wheel-wrapper .wheel-scroll .wheel-item{
+  height: 30px;
+  line-height: 30px;
+  font-size: 40/@r;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #2D2D2D;
+}
+
+.dialog-wrapper {
+  position: relative;
+  .close{
+    display: inline-block;
+    width: 72/@r;
+    height: 72/@r;
+    background: url("~@/assets/images/btn_icon_cancel@2x.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+  /deep/ .van-dialog__header{
+    height:72/@r;
+    line-height: 72/@r;
+    margin: 10px 0;
+    padding-top: 0;
+    font-size:34/@r;
+    font-weight:600;
+    color:rgba(45,45,45,1);
+  }
+  .custom-wrapper{
+    padding: 15px;
+  }
+  .input-wrapper{
+    height:88/@r;
+    line-height: 88/@r;
+    margin: 15px;
+  }
+} 
+
+.contrl-wrapper{
+  padding: 0 15px;
+  margin-top: 15px;
+  .van-button{
+    width:100%;
+  }
+}
